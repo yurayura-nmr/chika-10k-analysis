@@ -1,3 +1,7 @@
+# Requires:
+# coke_anecdotes.txt, berkshire_anecdotes etc.
+# python view_thoughts.py coke_anecdotes.txt --start 1 --end 1000
+
 from rich.console import Console
 from rich.markdown import Markdown
 from rich.panel import Panel
