@@ -1,3 +1,7 @@
+# Requires:
+# ./coke_pdfs/*.pdf
+# Collection of all annual reports (after OCR) from Coke to be analyzed
+
 import os
 import time
 import requests
