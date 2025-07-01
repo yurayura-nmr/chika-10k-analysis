@@ -1,5 +1,8 @@
 # Requires:
 # coke_anecdotes.txt, berkshire_anecdotes etc.
+# python view_thoughts.py coke_anecdotes.txt
+
+# Might sometimes produce artifacts when the console output overflows, thus safer to use for a reading session:
 # python view_thoughts.py coke_anecdotes.txt --start 1 --end 1000
 
 from rich.console import Console
